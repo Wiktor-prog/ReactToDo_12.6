@@ -8,6 +8,9 @@
     "build": "webpack --mode production",
     "lint": "eslint src/"
   },
+  "engines": {
+    "node": "14.16.0"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
